@@ -29,7 +29,8 @@ class Song
     #new_song.name = song_name
     #new_song.save
     #new_song
-    new_song = self.new_by_name(song_name).save
+    new_song = self.new_by_name(song_name)
+    new_song.save
     new_song
   end
 
