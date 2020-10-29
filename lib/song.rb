@@ -30,6 +30,7 @@ class Song
     #new_song.save
     #new_song
     new_song = self.new_by_name(song_name).save
+    new_song
   end
 
   def self.find_by_name(name)
